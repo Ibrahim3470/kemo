@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="About.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>About</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"
+        ><span class="Karim">K</span>arim<span class="Karim"> A</span>hmed</a
+      >
+      <nav class="nav">
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a class="active" href="About.html">About</a></li>
+          <li><a href="Project.html">Project</a></li>
+          <li><a href="Services.html">Service</a></li>
+          <li><a href="Contact US.html">Contact US</a></li>
+        </ul>
+        <img src="Img/sun.png" id="icon" />
+      </nav>
+    </header>
+    <!-- -----------------about----------------- -->
+    <section class="about">
+      <div class="containr">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/About.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h2 class="Sub-title">About Me</h2>
+            <p class="Me">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+              sunt voluptas repudiandae rerum quibusdam accusantium ipsum qui.
+              Error ducimus temporibus, vel incidunt, omnis sapiente
+              perspiciatis, nam molestiae obcaecati similique est!
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Content Writer</span><br />bla bla bla</li>
+                <li><span>Graphic Designer</span><br />Photoshop</li>
+                <li><span>Markting</span><br />FacebokAds</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021</span><br />Lorem ipsum dolor sit amet consectetur.
+                </li>
+                <li>
+                  <span>2019</span><br />Lorem ipsum dolor sit amet consectetur.
+                </li>
+                <li>
+                  <span>2017</span><br />Lorem ipsum dolor sit amet consectetur.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2019</span><br />Lorem ipsum dolor sit amet consectetur.
+                </li>
+                <li>
+                  <span>2017</span><br />Lorem ipsum dolor sit amet consectetur.
+                </li>
+                <li>
+                  <span>2014</span><br />Lorem ipsum dolor sit amet consectetur.
+                </li>
+                <li>
+                  <span>2008</span><br />Lorem ipsum dolor sit amet consectetur.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------------about----------------- -->
+    <script src="js/About.js"></script>
+  </body>
+</html>
